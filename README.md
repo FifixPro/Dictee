@@ -1,7 +1,14 @@
 # Dictee — push-to-talk dictation on an AMD XDNA2 NPU
 
-Hold **Ctrl + Alt + Space**, speak, release. Your speech is transcribed locally by
-**Whisper V3 Turbo** running on the Ryzen AI NPU through
+## Demo
+
+This two-minute video shows Dictee in everyday use: hold **Ctrl + Alt + Space**, speak,
+release, and the text appears where your cursor is. Transcription runs entirely on the
+Ryzen AI NPU with Whisper V3 Turbo through FastFlowLM, so nothing leaves the machine.
+
+https://github.com/user-attachments/assets/ce2634fa-6fe9-4b91-b074-e9fdf5c1fa57
+
+Your speech is transcribed locally by **Whisper V3 Turbo** running on the Ryzen AI NPU through
 [FastFlowLM](https://fastflowlm.com) (FLM), and the text is pasted where your cursor is —
 in Word, a browser, Teams, or any other application. Nothing leaves the machine.
 
