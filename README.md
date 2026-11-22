@@ -215,3 +215,24 @@ flm remove whisper-v3:turbo
 ```
 
 Then delete the script folder and `%LOCALAPPDATA%\Dictee`.
+
+## Credits
+
+Dictee is a thin layer of glue code; the real work happens in these open-source
+projects:
+
+- **[FastFlowLM](https://github.com/FastFlowLM/FastFlowLM)** — runs Whisper on the
+  AMD XDNA2 NPU and serves it through an OpenAI-compatible API.
+- **[Whisper](https://github.com/openai/whisper)** (model `whisper-v3:turbo`) — the
+  speech recognition model, by OpenAI.
+- **[jac-76/npu-whisper](https://github.com/jac-76/npu-whisper)** — helped find the
+  exact FastFlowLM transcription endpoint and model name used here.
+
+And the Python libraries in `requirements.txt`:
+[sounddevice](https://github.com/spatialaudio/python-sounddevice),
+[numpy](https://github.com/numpy/numpy),
+[keyboard](https://github.com/boppreh/keyboard),
+[pyperclip](https://github.com/asweigart/pyperclip),
+[requests](https://github.com/psf/requests),
+[pystray](https://github.com/moses-palmer/pystray),
+[Pillow](https://github.com/python-pillow/Pillow).
