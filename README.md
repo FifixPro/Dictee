@@ -1,4 +1,4 @@
-# Dictee — push-to-talk dictation on an AMD XDNA2 NPU
+# Dictée — push-to-talk dictation on an AMD XDNA2 NPU
 
 ## Demo
 
